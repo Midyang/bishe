@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/*-------------------搜索部分--------------------------*/
+#query_div{
+	width: 1024px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+#query_div_logo{/* LOGO DIV*/
+	width: 200px;
+	height: 100px;
+	float: left;
+	line-height: 100px;
+}
+#query_div_logo_photo{/* LOGO图标 */
+	width: 200px;
+	height: 100px;
+	float: left;
+	background-image: url(../img/LOGO200_100.png);
+}
+#query_div_selectBox{/* 搜索栏 DIV*/
+	height: 100px;
+	width: 820px;
+	float: right;
+}
+#main_right_top_div_ul{/*搜索框，上传图等的列表样式*/
+	list-style: none;
+	margin: 0px;
+	padding-top: 30px;
+}
+#main_right_top_div_ul li{
+	float: left;
+}
+#main_right_top_1_li2{
+	margin-left: 40px;
+}
+#main_right_top_1_ssk{ /*搜索框的样式*/
+	height:33px;
+	width:460px;
+	border: none;
+	border: 1px solid #DDDDDD;
+	background-color: white;
+	margin-right: 0px;
+}
+#main_right_top_1_file1{ /*上传图片样式*/
+	width: 35px;
+	height: 35px;
+	background-image: url(../img/xiangji.png);
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position:4px,4px ;
+	border: none;
+}
+#main_right_top_1_file2{/*搜索图标样式*/
+	width: 50px;
+	height: 37px;
+	background-color: #F10215;
+	background-image: url(../img/fangdajing.png);
+	background-repeat: no-repeat;
+	background-position:8px,1px ;
+	border: none;
+}
+#main_right_top_1_li2{
+	margin-left: 40px;
+}
+#main_right_top_1_GWC{/* 购物车 div样式*/
+	height: 35px;
+	width: 180PX;
+	background:url(../img/gwc.png) no-repeat 30px 8px;
+	background-color: white;
+	border: 1px solid #DDDDDD;
+	cursor: pointer;
+}
+#main_right_top_1_GWC span{
+	line-height: 35px;
+	margin-left: 50px;
+}

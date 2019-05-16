@@ -1,0 +1,308 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color:  #F0F3EF;
+	width: 100%;
+	clear: both;
+}
+#main_div{
+	width: 1400px;
+	margin: 0px auto;
+}
+/*-------------------站头部分---------------------------*/
+/*-------------------搜索部分---------------------------*/
+#query_div{
+	width: 1024px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+#query_div_logo{/* LOGO DIV*/
+	width: 200px;
+	height: 100px;
+	float: left;
+	line-height: 100px;
+}
+#query_div_logo_photo{/* LOGO图标 */
+	width: 200px;
+	height: 100px;
+	float: left;
+	background-image: url(../img/LOGO200_100.png);
+}
+#query_div_selectBox{/* 搜索栏 DIV*/
+	height: 100px;
+	width: 820px;
+	float: right;
+}
+#main_right_top_div_ul{/*搜索框，上传图等的列表样式*/
+	list-style: none;
+	margin: 0px;
+	padding-top: 30px;
+}
+#main_right_top_div_ul li{
+	float: left;
+}
+#main_right_top_1_li2{
+	margin-left: 40px;background-color: #7FFFD4;
+}
+#main_right_top_1_ssk{ /*搜索框的样式*/
+	height:33px;
+	width:460px;
+	border: none;
+	border: 1px solid #DDDDDD;
+	background-color: white;
+	margin-right: 0px;
+}
+#main_right_top_1_file1{ /*上传图片样式*/
+	width: 35px;
+	height: 35px;
+	background-image: url(../img/xiangji.png);
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position:4px,4px ;
+	border: none;
+}
+#main_right_top_1_file2{/*搜索图标样式*/
+	width: 50px;
+	height: 37px;
+	background-color: #F10215;
+	background-image: url(../img/fangdajing.png);
+	background-repeat: no-repeat;
+	background-position:8px,1px;
+	border: none;
+}
+#query_div_selectBox_myShopCar{
+	line-height: 40px;
+	font-size: 24px;
+	padding-left: 30px;
+	color: #A9A9A9;
+}
+#query_div_selectBox_myShopCar_photo{
+	margin-top: 5px;
+	width: 30px;
+	height:30px;
+	background-color: white;
+	float: left;
+	background-image: url(../img/gwc.png);
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+}
+#main_right_top_1_li2{
+	margin-left: 40px;
+}
+#main_right_top_1_GWC{/* 购物车 div样式*/
+	height: 35px;
+	width: 180PX;
+	float: right;
+	background:url(../img/gwc.png) no-repeat 30px 8px;
+	background-color: white;
+	border: 1px solid #DDDDDD;
+}
+#main_right_top_1_GWC span{
+	line-height: 35px;
+	margin-left: 50px;
+}
+/*----------------------页尾----------------------------*/
+/*---------------------商品详情部分-------------------------*/
+#order_info{
+	width: 1024px;
+	margin:0 auto;
+	color: #B0A59F;
+	font-size: 16px;
+	text-align: center;
+	background-color: white;
+}
+#order_info_head{
+	width: 924;
+	height: 40px;
+	padding-left: 100px;
+	padding-top: 10px;
+	position: relative;
+}
+#shopInformation{
+	width: 420px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+#danjia{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+#shuliang{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+#jine{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+#caozuo{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+
+/* 信息体 */
+.order_info_body{
+	width: 924px;
+	height: 110px;
+	padding-top: 10px;
+	margin-top: 4px;
+	padding-left: 100px;
+	position: relative;
+	color: #40241C;
+	font-size: 14px;
+	background-color: white;
+}
+.shopInformationbody{
+	width: 420px;
+	height: 100px;
+	float: left;
+}
+.shopInformationbody1{
+	width: 100px;
+	height: 100px;
+	border: 1px dashed #999999 ;
+	float: left;
+}
+.shopInformationbody2{
+	width: 318px;
+	height: 100px;
+	line-height: 24px;
+	font-size: 14px; 
+	float: left;
+	overflow: hidden;
+}
+.shopInformationbodyImg{
+	width: 100px;
+	height: 100px;
+}
+.danjiabody{
+	width: 120px;
+	height: 100px;
+	line-height: 50px;
+	float: left;
+	color:red;
+}
+.shuliangbody{
+	width: 120px;
+	height: 100px;
+	line-height: 50px;
+	float: left;
+}
+.shuliangbody_num{
+	width: 60px;
+	height: 24px;
+}
+.jinebody{
+	width: 120px;
+	height: 100px;
+	line-height: 50px;
+	float: left;
+	color: #FF4400;
+}
+.caozuobody{
+	width: 120px;
+	height: 100px;
+	line-height: 50px;
+	float: left;
+}
+/*总记部分*/
+#order_total{
+	width: 1024px;
+	height:40px;
+}
+#order_total_quanxuan{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+#order_total_num{
+	width: 400px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+#order_total_num span{
+	color: #FF4400;
+}
+#order_total_money{
+	width: 400px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+#order_total_money span{
+	color: #FF4400;
+}
+#order_total_tijiao{
+	width: 122px;
+	height: 30px;
+	line-height: 26px;
+	font-size: 16px;
+	color: black;
+	background-color: #F10215;
+	border-radius: 6px;
+	float: left;
+}
+#order_total_tijiao:hover{
+	border: 1px solid red ;
+	background-color: white;
+	cursor: pointer;  
+}
+#orderInfo_div{
+	width: 1024px;
+	font-size:14px;
+}
+.orderInfo_orderNO_div{
+	width: 800px;
+	height: 30px;
+	margin-left: 100px;
+}
+.nameBlock{
+	width: 120PX;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+	float: left;
+}
+.valueBlock{
+	width: 360PX;
+	height: 30px;
+	padding-left:30px;
+	line-height: 30px;
+	text-align: left;
+	float: left;
+}
+/*--------------提交订单-------------*/
+.inputCss{
+	width: 320px;
+	height: 22px;
+}
+#formButton_div{
+	position: relative;
+}
+.formButton{
+	width: 60px;
+	height: 30px;
+	margin-left: 60px;
+	float: right;
+}
+.errBlock{
+	width: 280PX;
+	height: 26px;
+	line-height: 26px;
+	float: right;
+	color:red;
+	font-size:14px;
+}

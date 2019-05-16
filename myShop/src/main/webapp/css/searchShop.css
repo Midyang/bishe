@@ -1,0 +1,308 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color:  #F0F3EF;
+	width: 100%;
+	clear: both;
+}
+#main_div{
+	width: 1400px;
+	margin: 0px auto;
+}
+/* searchFilterDiv 商品详细华为div*/
+#searchFilterDiv{
+	width: 1024px;
+	height: 130px;
+	margin: 0 auto;
+	position: relative;
+	background-color: white;
+	overflow: hidden;
+}
+#searchFilterDiv_price{
+	width: 340px;
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 60px;
+	color: #B0A59F;
+	font-size: 16px;
+}
+.searchFilterDiv_price_num{
+	width: 100px;
+	height: 20px;
+}
+#searchFilterDiv_hot{
+	width: 320px;
+	height: 30px;
+	padding-left: 60px;
+	color: #B0A59F;
+	font-size: 16px;
+}
+#searchFilterDiv_hot_select{
+	margin: 0px;
+	padding: 0px;
+	width: 100px;
+	height: 24px;
+}
+#searchFilterDiv_discription{
+	width: 400px;
+	height: 30px;
+	padding-left: 60px;
+	color: #B0A59F;
+	font-size: 16px;
+}
+#searchFilterDiv_discriptionMore{
+	width: 280px;
+	height: 24px;
+	margin: 0px;
+	padding: 0px;
+	
+}
+#searchFilterDiv_sort{
+	width: 400px;
+	height: 30px;
+	padding-left: 60px;
+	color: #B0A59F;
+	font-size: 16px;
+}
+/*商品分类*/
+#shop_class{
+	width: 1024px;
+	margin: 0 auto;
+	padding-top:10px;
+	padding-bottom: 10px;
+	position: relative;
+	background-color: white;
+}
+#shop_class_daohang{/*网站导航	宽度固定，高度自适应*/
+	width: 1024px;
+}
+.shop_class_daohang_ul{
+	margin-left: 60px;
+	padding: 0px;
+	list-style-type: none;
+	width: 100%;
+}
+.shop_class_daohang_li1{
+	clear: both;
+	width: 900px;
+	padding-top: 4px;
+	padding-bottom: 24px;
+	margin-bottom: 0px;
+	color: #B0A59F;
+	font-size: 16px;
+}
+.shop_class_daohang_ul2{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	width: 100%;
+	border-top: 1px solid #B0A59F;
+}
+.shop_class_daohang_li2{
+	float: left;
+	padding-top: 6px;
+	padding-left: 20px;
+	color: #999999;
+	font-size: 14px;
+}
+.shop_class_daohang_li2 span{
+	border: 1px solid white;
+	cursor: pointer;
+}
+.shop_class_daohang_li2:hover span{
+	border: 1px solid red;
+}
+/* 商品信息DIV shop_info*/
+		#shop_info{/*整体DIV*/
+			width: 1400px;
+		}
+		.shop_info_one{/*一个商品类别DIV大块 暂时不定义长度，让它自适应*/
+			width: 1024px;
+			margin: 0 auto;
+			padding-top: 3px;
+		}
+		.shop_info_one_head{/*一个商品类别 中标题部分DIV*/
+			width: 1024px;
+			height: 30px;
+			margin-top: 4px;
+			border-radius: 6px;
+			background-color: white;
+			overflow: hidden;
+		}
+		.shop_info_one_head_title{
+			height: 30px;
+			width: 200px;
+			padding-left: 24px;
+			float: left;
+			line-height: 30px;
+			font-weight: bold;
+			color: #999999;
+			background-image: url(../img/daohang.png);
+			background-repeat: no-repeat;
+		}
+		.shop_info_one_head_value{
+			height: 30px;
+			width: 400px;
+			float: right;
+			line-height: 30px;
+			font-size: 12px;
+			color: #999999;
+		}
+		.shop_info_one_body{/*一个商品类别 商品详情DIV*/
+			width: 1024px;
+			height: 610px;
+			margin-top: 4px;
+			border-radius: 10px;
+			background-color: #F0F3EF;
+			border: 1px solid white;
+			
+			}
+		.shop_info_one_body_shopInfo{/*一个小商品DIV*/
+			width: 230px;
+			height: 290px;
+			margin-top: 8px;
+			margin-left: 18px;
+			float: left;
+			border-radius: 10px;
+			background-color: white;
+			border:1px solid #F0F3EF;
+			overflow: hidden;
+			cursor: pointer;
+			opacity: 0.8;
+		}
+		.shop_info_one_body_shopInfo:hover{
+			opacity: 1;
+			border:1px solid #FF0036;
+			
+		}
+		.shop_info_one_body_shopInfo_photoDiv{
+			height: 190px;
+			width: 190px;
+			margin-left: 18px;
+			margin-top: 16px;
+			border: 1px dashed #F0F3EF;
+			background-color: #ABCDEF;
+		}
+		.shop_info_one_body_shopInfo_photoDiv_img{
+			height: 190px;
+			width: 190px;
+		}
+		.shop_info_one_body_shopInfo_infoDiv{
+			height: 40px;
+			width: 200px;
+			margin-left: 15px;
+			margin-top: 2px;
+			font-size: 14px;
+			text-align: center;
+			line-height: 20px;
+			color: #666666;
+			overflow: hidden;
+		}
+		.shop_info_one_body_shopInfo_priceDiv{
+			width: 230px;
+			line-height: 20px;
+			margin-top: 6px;
+			text-align: center;
+			font-size: 18px;
+			color: #FF0036;
+		}
+/*用于分页 的div块*/
+#fenyeDiv{
+	width:1024px;
+	height: 60px;
+	position: relative;
+	cursor: pointer;
+}
+#currentPage{
+	width: 200px;
+	height: 24px;
+	margin: 0 auto;
+	line-height: 24px;
+	text-align: center;
+	font-size: 14px;
+	color: #888888;
+}
+#baoliu{
+	height: 35px;
+	width: 260px;
+	float: left;
+}
+#firstPage{
+	width: 100px;
+	height: 35;
+	line-height: 35px;
+	text-align: center;
+	font-size: 16px;
+	color: #888888;
+	border: 1px solid #F0F3EF;
+	border-radius:6px;
+	float: left;
+}
+#firstPage:hover{
+	border-color: #F10215;
+	background-color: white;
+}
+#previousPage{
+	width: 100px;
+	height: 35;
+	line-height: 35px;
+	text-align: center;
+	font-size: 16px;
+	color: #888888;
+	border: 1px solid #F0F3EF;
+	border-radius:6px;
+	float: left;
+}
+#previousPage:hover{
+	border-color: #F10215;
+	background-color: white;
+}
+#fixPage{
+	width: 100px;
+	height: 35;
+	line-height: 35px;
+	text-align: center;
+	font-size: 16px;
+	color: #888888;
+	border: 1px solid #F0F3EF;
+	border-radius:6px;
+	float: left;
+}
+#fixPageInput{
+	height: 24px;
+	width: 36px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#nextPage{
+	width: 100px;
+	height: 35;
+	line-height: 35px;
+	text-align: center;
+	font-size: 16px;
+	color: #888888;
+	border: 1px solid #F0F3EF;
+	border-radius:6px;
+	float: left;
+}
+#nextPage:hover{
+	border-color: #F10215;
+	background-color: white;
+}
+#lastPage{
+	width: 100px;
+	height: 35;
+	line-height: 35px;
+	text-align: center;
+	font-size: 16px;
+	color: #888888;
+	border: 1px solid #F0F3EF;
+	border-radius:6px;
+	float: left;
+}
+#lastPage:hover{
+	border-color: #F10215;
+	background-color: white;
+}

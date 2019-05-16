@@ -1,0 +1,264 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/loginBackgroung.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #FFFEEF;
+	clear: both;
+}
+/*
+ *主体DIV
+ * */
+#main{
+	width: 60%;
+	height:248px;
+	margin: 0px auto;
+	padding-left: 20%;
+	padding-top:100px;
+}
+#main_update{
+	width: 60%;
+	height:248px;
+	margin: 0px auto;
+	padding-left: 20%;
+	padding-top:30px;
+}
+#main_add{
+	width: 60%;
+	height:288px;
+	margin: 0px auto;
+	padding-left: 20%;
+	padding-top:30px;
+}
+/*--------------标题行****退出登录    DIV-----------------------------------------*/
+			/*标题_导航_退出登录   整体DIV*/
+			#head{
+				height: 30px;
+				width: 100%;
+				background-color: white;
+				margin-bottom:4px ;
+			}
+			/*-- 标题**导航部分  --*/
+			#head_text{
+				line-height: 30px;
+				width: 200px;
+				margin-left: 5%;
+				font-weight: bold;
+				font-size: 18px;
+				font-family:"Times New Roman",Georgia,Serif;
+				color: #888888;
+				float: left;
+			}
+			/*-- 标题**导航部分  中的超链接跳转  --*/
+			#head_text a{
+				line-height: 30px;
+				font-size: 14px;
+				color: #A9A9A9;
+				text-decoration: none;
+				line-height: ;
+			}
+			#head_text a:hover{
+				color: red;
+				cursor: hand;
+			}
+/*----------------用户登录 ---------------div*/
+			#userDiv{
+				height: 28px;
+				width: 160px;
+				border: 2px solid #DDDDDD;
+				margin-right: 5%;
+				float: right;
+				border-radius: 6px;
+				box-shadow: 1px 2px 10px 2px #E6E6E6;
+				
+				position: relative;
+			}
+			/*退出登录 	内部字体的样式*/
+			#userFont{
+				line-height: 28px;
+				margin-left: 14px;
+				font-size: 16px;
+				font-weight: bold;
+				color: #888888;
+				font-family: arial;
+			}
+			#usernameFont{
+				font-size: 14px;
+			}
+			
+			/*
+			 * 隐藏 的DIV 块
+			 * */
+			#userFuncDiv{
+				width: 160px;
+				height: 200px;
+				position: absolute;
+				visibility: hidden;
+				background-color: whitesmoke;
+				border: 2px solid #FFFEEF;
+				border-radius: 10px;
+				box-shadow: 3px 1px 6px 2px #DDDDDD inset;
+				
+			}
+			/* 显示div块*/
+			#userDiv:hover #userFuncDiv{
+				visibility: visible;
+			}
+			/*
+			 *头像框
+			 */
+			#photoDiv{
+				width: 80px;
+				height:80px;
+				margin: 0 auto;
+				border: 2px solid #DDDDDD;
+				border-radius: 40px;
+				margin-top: 20px;
+				background-image: url(../images/LoginJPG.jpg);
+				
+			}
+			#exitDiv p{
+				width: 160px;
+			}
+			.textP{
+				font-size: 12px;
+				text-align: center;
+				color: #A9A9A9;
+			}
+			/*退出功能	超链接*/
+			#exitA{
+				font-size: 12px;
+				text-align: center;
+				color: #A9A9A9;
+			}
+			#exitA:hover{
+				font-size: 14px;
+				color: red;
+			}
+		/*-----------------------------------------------*/
+/*
+ *包裹表格 的DIV
+ * */
+#loginDIV{
+	width: 394px;
+	height: 300px;
+	margin: 0px auto;
+}
+#updateDIV{
+	width: 394px;
+	height: 360px;
+	margin: 0px auto;
+}
+/*
+ *表格
+ * */
+#tal{
+	width: 390px;
+	height: 240px;
+	border: 2px solid #A9A9A9;
+	border-radius: 10px;
+	box-shadow: 1px 2px 6px 2px #A9A9A9;
+	padding-top: 20px;
+	padding-left: 10px;
+
+}
+#tal_add{
+	width: 390px;
+	height: 280px;
+	border: 2px solid #A9A9A9;
+	border-radius: 10px;
+	box-shadow: 1px 2px 6px 2px #A9A9A9;
+	padding-top: 20px;
+	padding-left: 10px;
+
+}
+/*账号 密码 输入框(input) 的样式*/
+#username,#pwd,#comfirmWord{
+	width: 200px;
+	height: 28px;
+	border: 1px solid #A9A9A9;
+	border-radius:6px;
+	color: #888888;
+}
+/*验证码输入框的样式*/
+#codeValid{
+	width: 80px;
+	height: 26px;
+	margin-right: 20px;
+	border: 1px solid #A9A9A9;
+	border-radius:6px;
+	color: #888888;
+
+}
+/*
+ *设置 th 标签列 的样式
+ * */
+#tal th{
+	color: #888888;
+	font-size: 14px;
+	width:100px;
+}
+#tal_add th{
+	color: #888888;
+	font-size: 14px;
+	width:100px;
+}
+/*输入行*/
+.input_info{
+	height: 40px;
+}
+/*验证码的行*/
+#row_code{
+	height: 34px;
+}
+/*验证码_div*/
+#codeValid_div{
+	height: 30px;
+	width: 120px;
+	float: left;
+}
+/*验证码image_div*/
+#image_div{
+	height: 30px;
+	width: 124px;
+	float: left;
+}
+/*
+ * 登录重置按钮的  所在行的DIV
+ * */
+#fenye_div{
+	width: 170px;
+	height: 30px;
+	margin-left: 150px;
+}
+/*
+ * 登录重置按钮的样式
+ * */
+.fenye_button{
+	margin-right: 20px;
+	width: 60px;
+	height: 30px;
+	border: none;
+	border-radius: 8px;
+}
+.fenye_button:hover{
+	box-shadow: 1px 2px 6px 2px #A9A9A9;
+}
+/*
+ *错误提示 的行 class
+ * */
+.err_row{
+	height:16px;
+}
+/*
+ *错误提示 的字体 class
+ * */
+.err{
+	font-size:10px;
+	color: red;
+	margin-left: 100px;
+}
+
+	

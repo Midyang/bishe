@@ -1,0 +1,225 @@
+@charset "UTF-8";
+			#heads{
+				width: 1400px;
+				height: 30px;
+				margin: 0px auto;
+				background-color: #E3E4E5;
+				overflow: visible;
+				cursor: pointer;	/*指针变为小手*/
+			}
+			/*    头部导航样式            */
+			#list_ul{
+				list-style: none;
+				margin-left: 26%;
+				margin-top: 0px;
+				position: relative;
+			}
+			#list_ul li{
+				float: left;
+				margin-left:10px ;
+				font-size: 12px;
+				line-height: 30px;
+			}
+			#ul_li_1{
+				width: 14px;
+				height: 18px;
+				background-image: url(../img/liat_dingwei.png);
+				background-repeat: no-repeat;
+				margin-top: 5px;
+				
+			}
+			.tu1{
+				width: 5px;
+				height: 15px;
+				background-image: url(../img/liat_shuxiang.png);
+				background-repeat: no-repeat;
+				margin-top: 8px;
+			}
+			#ul_li_2{
+				padding-left: 100px;
+			}
+			#list_ul a{
+				text-decoration: none;
+				color: #999999;
+			}
+			#list_ul a:hover{
+				color: red;
+			}
+			#ul_li_3:link{/*待检查*/
+				color: red;
+			}
+		/*头部导航样式_附属div项*/
+			#list_ul_li_shangcheng{/*我的商城*/
+				width: 220px;
+				background-color: white;
+				position: absolute;
+				visibility: hidden;
+				border-bottom:1px solid #E3E4E5;
+				border-left:1px solid #E3E4E5;
+				border-right:1px solid #E3E4E5;
+				
+			}
+			#list_ul_li_shangchengLi:hover #list_ul_li_shangcheng{
+				visibility: visible;
+				z-index:99;
+			}
+			#list_ul_li_shangchengLi:hover{
+				background-color: white;
+			}
+			.list_ul_li_shangcheng_ul{
+				margin-left: -6px;
+				padding: 0px;
+				list-style-type: none;
+				width: 100%;
+			}
+			.list_ul_li_shangcheng_li1{
+				width: 100%;
+				padding: 0px;
+				margin: 0px;
+				margin-top: 2px;
+				color: #999999;
+				font-size: 12px;
+			}
+			.list_ul_li_shangcheng_li1 hr{
+				width: 90%;
+				color: #CCCCCC;
+			}
+			.list_ul_li_shangcheng_ul2{
+				margin: 0px;
+				padding: 0px;
+				list-style-type: none;
+				width: 100%;
+			}
+			.list_ul_li_shangcheng_li2{
+				
+				padding: 0px;
+				margin: 0px;
+				width: 100px;
+				color: #999999;
+			}
+			#list_ul_li_khfw{/*客户服务*/
+				width: 140px;
+				background-color: white;
+				position: absolute;
+				visibility: hidden;
+				border-bottom:1px solid #E3E4E5;
+				border-left:1px solid #E3E4E5;
+				border-right:1px solid #E3E4E5;
+				overflow: hidden;
+			}
+			#list_ul_li_khfwLi:hover #list_ul_li_khfw{
+				visibility: visible;
+				z-index:99;
+			}
+			#list_ul_li_khfwLi:hover{
+				background-color: white;
+			}
+			.list_ul_li_khfw_ul{
+				margin-left: -6px;
+				padding: 0px;
+				list-style-type: none;
+				width: 100%;
+			}
+			.list_ul_li_khfw_li1{
+				width: 100%;
+				padding: 0px;
+				margin: 0px;
+				margin-top: 2px;
+				color: #999999;
+				font-size: 12px;
+			}
+			.list_ul_li_khfw_ul2{
+				margin: 0px;
+				padding: 0px;
+				list-style-type: none;
+				width: 100%;
+			}
+			.list_ul_li_khfw_li2{
+				padding: 0px;
+				margin: 0px;
+				color: #999999;
+			}
+			
+			#list_ul_li_daohangLi{
+				position: relative;
+			}
+			#list_ul_li_daohang{/*网站导航	宽度固定，高度自适应*/
+				width: 300px;
+				height:300px;
+				position: absolute;
+				left: -240px;
+				visibility: hidden;
+				background-color: white;
+				border-bottom:1px solid #E3E4E5;
+				border-left:1px solid #E3E4E5;
+				border-right:1px solid #E3E4E5;
+				overflow: auto;
+			}
+			#list_ul_li_daohangLi:hover #list_ul_li_daohang{
+				visibility: visible;
+				z-index:99;
+			}
+			#list_ul_li_daohangLi:hover{
+				background-color: white;
+			}
+			.list_ul_li_daohang_ul{
+				margin-left: -6px;
+				padding: 0px;
+				list-style-type: none;
+				width: 100%;
+			}
+			.list_ul_li_daohang_li1{
+				width: 290px;
+				padding: 0px;
+				margin: 0px;
+				margin-top: 2px;
+				color: #999999;
+				font-size: 12px;
+			}
+			.list_ul_li_daohang_ul2{
+				margin: 0px;
+				padding: 0px;
+				list-style-type: none;
+				width: 290px;
+			}
+			.list_ul_li_daohang_li2{
+				padding: 0px;
+				margin: 0px;
+				color: #999999;
+			}
+			#list_ul_li_sjsc{/*手机商城*/
+				height: 100px;
+				width: 200px;
+				background-color: white;
+				position: absolute;
+				left: -140px;
+				visibility: hidden;
+				border-bottom:1px solid #E3E4E5;
+				border-left:1px solid #E3E4E5;
+				border-right:1px solid #E3E4E5;
+				overflow: hidden;
+			}
+			#list_ul_li_sjscLi{
+				position: relative;
+			}
+			#list_ul_li_sjscLi:hover #list_ul_li_sjsc{
+				visibility: visible;
+				z-index:99;
+			}
+			#list_ul_li_sjscLi:hover{
+				background-color: white;
+			}
+			#list_ul_li_sjsc_1{
+				height: 100px;
+				width: 100px;
+				float: left;
+				background-image: url(../img/LOGO_ERWEIMA100_100.png);
+			}
+			#list_ul_li_sjsc_2{
+				height: 100px;
+				width: 100px;
+				float: left;
+				background-color: white;
+				color: #999999;
+				align-content: center;
+			}

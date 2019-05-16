@@ -1,0 +1,204 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color:  #F0F3EF;
+	width: 100%;
+	clear: both;
+}
+#main_div{
+	width: 1400px;
+	margin: 0px auto;
+}
+/*---------------------商品详情部分-------------------------*/
+#order_info{
+	width: 1024px;
+	margin:0 auto;
+	color: #B0A59F;
+	font-size: 16px;
+	text-align: center;
+	background-color: white;
+}
+#order_info_head{
+	width: 1024;
+	height: 40px;
+	padding-top: 10px;
+	position: relative;
+}
+#quanxuan{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+#shopInformation{
+	width: 420px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+#danjia{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+#shuliang{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+#jine{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+#caozuo{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+
+/* 信息体 */
+.order_info_body{
+	width: 1024px;
+	height: 110px;
+	padding-top: 10px;
+	margin-top: 4px;
+	position: relative;
+	color: #40241C;
+	font-size: 14px;
+	background-color: white;
+}
+.quanxuanbody{
+	width: 100px;
+	height: 100px;
+	line-height: 50px;
+	float: left;
+}
+.shopInformationbody{
+	width: 420px;
+	height: 100px;
+	float: left;
+}
+.shopInformationbody1{
+	width: 100px;
+	height: 100px;
+	border: 1px dashed #999999 ;
+	float: left;
+}
+.shopInformationbody2{
+	width: 318px;
+	height: 100px;
+	line-height: 24px;
+	font-size: 14px; 
+	float: left;
+	overflow: hidden;
+}
+.shopInformationbodyImg{
+	width: 100px;
+	height: 100px;
+}
+.danjiabody{
+	width: 120px;
+	height: 100px;
+	line-height: 50px;
+	float: left;
+	color:red;
+}
+.shuliangbody{
+	width: 120px;
+	height: 100px;
+	line-height: 50px;
+	float: left;
+}
+.shuliangbody_num{
+	width: 60px;
+	height: 24px;
+}
+.jinebody{
+	width: 120px;
+	height: 100px;
+	line-height: 50px;
+	float: left;
+	color: #FF4400;
+}
+.caozuobody{
+	width: 120px;
+	height: 100px;
+	line-height: 50px;
+	float: left;
+}
+/*总记部分*/
+#order_total{
+	width: 1024px;
+	height:40px;
+}
+#order_total_quanxuan{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+#order_total_num{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+#order_total_num span{
+	color: #FF4400;
+}
+#order_total_money{
+	width: 360px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+#order_total_money span{
+	color: #FF4400;
+}
+#order_total_manyDelete{
+	width: 200px;
+	height: 28px;
+	margin-right: 10px;
+	line-height: 30px;
+	float: left;
+	border: 1px solid #FF4400;
+	border-radius: 8px;
+	background-color: white;
+	cursor: pointer; 
+}
+#order_total_manyDelete:hover{
+	background-color: #FF4400;
+	border: 1px solid white;
+	color: black;
+}
+#order_total_tijiao{
+	width: 122px;
+	height: 28px;
+	line-height: 26px;
+	font-size: 16px;
+	background-color: #F10215;
+	border-radius: 6px;
+	float: left;
+	cursor: pointer; 
+}
+#order_total_tijiao:hover{
+	border: 1px solid red ;
+	background-color: white;
+	color: red;
+}
+#notHaveShop{
+	width: 1024px;
+	height: 500px;
+	line-height: 500px;
+	text-align: center;
+	font-size: 54px;
+	font-family: inherit;
+	color: #DDDDDD;
+}
+

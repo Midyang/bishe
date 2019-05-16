@@ -1,0 +1,380 @@
+@CHARSET "UTF-8";
+/*--------------body 背景样式 的设置-----------------------------------------*/
+			body{
+				margin: 0px;
+				padding: 0px;
+				background-image: url(../images/loginBackgroung.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-color: #FFFEEF;
+			}
+/*--------------整体 DIV-----------------------------------------*/
+			#start{
+				width: 100%;
+			}
+/*--------------标题行****退出登录    DIV-----------------------------------------*/
+			/*标题_导航_退出登录   整体DIV*/
+			#head{
+				height: 30px;
+				width: 100%;
+				background-color: white;
+				margin-bottom:4px ;
+			}
+			/*-- 标题**导航部分  --*/
+			#head_text{
+				line-height: 30px;
+				width: 500px;
+				margin-left: 5%;
+				font-weight: bold;
+				font-size: 18px;
+				font-family:"Times New Roman",Georgia,Serif;
+				color: #888888;
+				float: left;
+			}
+			/*-- 标题**导航部分  中的超链接跳转  --*/
+			#head_text a{
+				line-height: 30px;
+				font-size: 14px;
+				color: #A9A9A9;
+				text-decoration: none;
+				line-height: ;
+			}
+			#head_text a:hover{
+				color: red;
+				cursor: hand;
+			}
+/*----------------用户登录 ---------------div*/
+			#userDiv{
+				height: 28px;
+				width: 160px;
+				border: 2px solid #DDDDDD;
+				margin-right: 5%;
+				float: right;
+				border-radius: 6px;
+				box-shadow: 1px 2px 10px 2px #E6E6E6;
+				
+				position: relative;
+			}
+			/*退出登录 	内部字体的样式*/
+			#userFont{
+				line-height: 28px;
+				margin-left: 14px;
+				font-size: 16px;
+				font-weight: bold;
+				color: #888888;
+				font-family: arial;
+			}
+			#usernameFont{
+				font-size: 14px;
+			}
+			
+			/*
+			 * 隐藏 的DIV 块
+			 * */
+			#userFuncDiv{
+				width: 160px;
+				height: 200px;
+				position: absolute;
+				visibility: hidden;
+				background-color: whitesmoke;
+				border: 2px solid #FFFEEF;
+				border-radius: 10px;
+				box-shadow: 3px 1px 6px 2px #DDDDDD inset;
+				
+			}
+			/* 显示div块*/
+			#userDiv:hover #userFuncDiv{
+				visibility: visible;
+			}
+			/*
+			 *头像框
+			 */
+			#photoDiv{
+				width: 80px;
+				height:80px;
+				margin: 0 auto;
+				border: 2px solid #DDDDDD;
+				border-radius: 40px;
+				margin-top: 20px;
+				background-image: url(../images/LoginJPG.jpg);
+				
+			}
+			#exitDiv p{
+				width: 160px;
+			}
+			.textP{
+				font-size: 12px;
+				text-align: center;
+				color: #A9A9A9;
+			}
+			/*退出功能	超链接*/
+			#exitA{
+				font-size: 12px;
+				text-align: center;
+				color: #A9A9A9;
+			}
+			#exitA:hover{
+				font-size: 14px;
+				color: red;
+			}
+/*---------------模糊查询部分-----------------------------------*/
+			/*模糊查询部分*/
+			#func_box{
+				height:30px;
+				width: 100%;
+				margin-top: 3px;
+			}
+			#select_button{
+				height:30px;
+				width: 420px;
+				margin: 0px auto;	
+				
+			}
+			#select_button span{
+				font-size: 12px;
+				font-family: "微软雅黑";
+				color: #888888;
+			}
+			#select_button input{
+				height: 24px;
+				width: 220px;
+				border-radius: 5px;
+				box-shadow: 1px 2px 10px 2px #E6E6E6;
+			}
+			#select_button button{
+				height: 26px;
+				width: 50px;
+				border: none;
+				border-radius: 13px;
+				color: #888888;
+				cursor: hand;
+			}
+			#select_button button:hover{
+				box-shadow: 1px 2px 4px 1px #A9A9A9;
+				cursor: hand;
+			}
+/*-----------------------添加按钮    表格    分页按钮    的DIV----------------------*/
+			#main{
+				width: 90%;
+				margin: 0px auto;
+			}
+/*-----------添加按钮-----------------------*/
+			/*添加按钮 的div*/
+			#add_button{
+				width: 90%;
+				height: 30px;
+				padding-bottom: 1px;
+				margin: 0px auto;
+
+			}
+			#add_button_float{
+				width: 60px;
+				height: 29px;
+				float: right;
+			}
+			#add_button_float button{
+				width: 60px;
+				height: 28px;
+				border: none;
+				border-radius: 14px;
+				color: #888888;
+			}
+			#add_button_float button:hover{
+				box-shadow: 1px 2px 6px 1px #A9A9A9;
+				cursor: hand;
+			}
+/*-----------订单列表中的分组查询  未付款 未发货 已发货 已收货 的div -----------------------*/
+			#list_select{
+				height: 29px;
+				width: 360px;
+				float: left;
+				margin-left: 35%;
+				padding-top: 3px;
+				line-height: 26px;
+				font-size: 12px;
+				color: #A9A9A9;
+			}
+/*--------------表格头部分-----------------------------------------*/
+			/*表格 div*/
+			#table_div{
+				overflow:auto;
+				height:360px;
+				width:1080px;
+				overflow:auto;
+				background-color: white;
+				border: 2px solid white;
+				border-radius: 20px;
+				border:1px solid #A9A9A9;
+			}
+			/*表格部分*/
+			#main_table{
+				width: 90%;
+				margin: 0px auto;
+				
+			}
+			/*表格 -表头 的(tr)  行高*/
+			#main_table_thead{
+				line-height: 54px;
+				height: 54px;
+				overflow: auto;
+
+			}
+			/*表格 -表头	非按钮列 	宽度*/
+			.table_thead_col{
+				color: #888888;
+			}
+			/*表格-表头  按钮的列 		宽度*/
+			.table_thead_col_button{
+				color: #888888;
+				width: 54px;
+				text-align: center;
+			}
+			/*product列表 图片所在列		宽度*/
+			#imageooo{
+				width: 60px;
+			}
+			/*product列表 描述所在列		宽度*/
+			#main_table_miaoshu{
+				width:320px;
+			}
+			/*product列表 时间所在列		宽度*/
+			#main_table_time{
+				width:80px;
+			}
+			#main_table_name{
+				width:120px;
+			}
+			
+/*--------------表格普通行--------------------------------------------*/	
+			/* =表格普通行的(td)		 行高*/
+			.table_tr_col{
+				height: 30px;
+				text-align: center;
+				font-size: 12px;
+				color: #888888;	
+			}
+			/* =表格product普通行的(td)		 行高*/
+			.table_tr_col_product{
+				height: 70px;
+				text-align: center;
+				font-size: 12px;
+				color: #888888;	
+			}
+			.table_tr_col_product img{
+				border: 1px solid #A9A9A9;
+			}
+			/* 订单表		状态列		状态按钮	样式*/
+			#list_state_button_col{
+				height: 30px;
+				width:80px;
+				text-align: center;
+				font-size: 12px;
+				color: #888888;	
+			}
+			.list_state_button{
+				width: 70px;
+				height: 24px;
+				border: none;
+				border-radius: 6px;
+				background-color: #F5F5F5;
+				color: #888888;
+				font-size: 12px;
+			}
+			.list_state_button:hover{
+				box-shadow: 1px 2px 6px 1px #A9A9A9;
+			}
+			/* 普通列表 删除 修改 按钮 功能样式    */
+			.table_tr_col_button{
+				width: 50px;
+				height: 24px;
+				border: none;
+				border-radius: 12px;
+				color: #888888;
+				font-size: 12px;
+			}
+			.table_tr_col_button:hover{
+				box-shadow: 2px 2px 6px 1px #A9A9A9;
+				cursor: hand;
+			}
+			
+/*--------------分页按钮部分-----------------------------------------*/	
+			/* 分页的整体 div*/
+			#foot_fenye_div{
+				width:100%;
+				height:30px;
+			}
+			/*直接包裹分页按钮的 div*/
+			#fenye_div{
+				width: 334px;
+				height: 28px;
+				padding-top: 6px;
+				margin: 0px auto;
+			}
+			/* 分页的 button */	
+			.fenye_button{
+				width: 60px;
+				height: 24px;
+				border: none;
+				border-radius: 12px;
+				margin-right: 5px;
+				color: #888888;
+			}
+			.fenye_button:hover{
+				box-shadow: 2px 2px 6px #A9A9A9;
+				cursor: hand;
+			}
+	/* 订单项列表  返回上一菜单列表的 按钮  div*/
+			#back_prePage_div{
+				width: 100px;
+				height: 34px;
+				padding-top: 2px;
+				margin: 0px auto;
+			}
+			#back_prePage_button{
+				width: 100px;
+				height: 34px;
+				border: none;
+				border-radius: 8px;
+				margin-right: 5px;
+				color: #888888;
+			}
+			#back_prePage_button:hover{
+				box-shadow: 2px 2px 6px #A9A9A9;
+				cursor: hand;
+			}
+/*---------------订单详情页尾部-----------------------------------*/
+	.main_table_thead_info{
+		color: #888888;
+		font-size: 14px;
+		line-height: 24px;
+	}
+	#main_table_thead_info2{
+		line-height: 40px;
+	}
+	.table_thead_col2{
+		color: #888888;
+		font-size: 14px;
+	}
+	#table_thead_col3{
+		text-align: center;
+	}
+	#main_table_thead_bg{
+		background-color: #FFEEFF;
+	}
+	#gdButton{
+		height: 26px;
+		width: 80px;
+		border: none;
+		border-radius: 13px;
+		color: #888888;
+		cursor: hand;
+		margin-right: 20px;
+	}
+	#gdButton:hover{
+		box-shadow: 1px 2px 4px 1px #A9A9A9;
+		cursor: hand;
+   }
+	#selectMore_button{
+	 float:right;
+	}
+	

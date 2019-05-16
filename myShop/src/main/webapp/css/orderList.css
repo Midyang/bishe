@@ -1,0 +1,338 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #F0F3EF;
+	width: 100%;
+	clear: both;
+}
+#main_div{
+	width: 1400px;
+	margin: 0px auto;
+}
+/*---------------------订单详情部分-------------------------*/
+#order_info{
+	width: 1024px;
+	height: 702px;
+	margin: 0 auto;
+	position: relative;
+	color: #B0A59F;
+	font-size: 16px;
+	text-align: center;
+	background-color: white;
+}
+#leftInfo{
+	width: 156px;
+	height: 700px;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	border-top: 1px dashed #E3E4E5;
+	border-left: 1px dashed #E3E4E5;
+	overflow: hidden;
+}
+#rightInfo{
+	width: 864px;
+	height: 700px;
+	position: relative;
+	float: left;
+	border-top: 1px dashed #E3E4E5;
+	border-right: 1px dashed #E3E4E5;
+}
+/*未付款部分*/
+#orderItems{
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #EEEEEE;
+}
+#unpaidOrder{
+	width: 158px;
+	height: 39px;
+	border: 1px solid white;
+	line-height: 39px;
+	text-align: center;
+	background-color: #EEEEEE;
+}
+#unpaidOrder:hover{
+	background-color: white;
+}
+#unpaidOrder_div{
+	position: absolute;
+	width: 864px;
+	height: 700px;
+	visibility: hidden;
+}
+
+/*未收货订单*/
+#receiveOfgoodsOrder{
+	width: 158px;
+	height: 39px;
+	border: 1px solid white;
+	line-height: 39px;
+	text-align: center;
+	background-color: #EEEEEE;
+}
+#receiveOfgoodsOrder:hover{
+	background-color: white;
+}
+#receiveOfgoodsOrder_div{
+	position: absolute;
+	width: 864px;
+	height: 650px;
+	visibility: hidden;
+}
+
+/*已完成订单*/
+#finishOrder{
+	width: 158px;
+	height: 39px;
+	border: 1px solid white;
+	line-height: 39px;
+	text-align: center;
+	background-color: #EEEEEE;
+}
+#finishOrder:hover{
+	background-color: white;
+}
+#finishOrder_div{
+	position: absolute;
+	width: 864px;
+	height: 650px;
+	visibility: hidden;
+}
+#rightInfo_order_head{/*订单头部*/
+	width: 860px;
+	height: 40px;
+	background-color: #EEEEEE;
+}
+
+#rightInfo_order_body{/*订单体*/
+	width: 864px;
+	height: 650px;
+	position: relative;
+	float: left;
+}
+#order_product{/*订单号*/
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+#order_product:hover{
+	background-color: white;
+}
+#order_date{/*日期*/
+	width: 90px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+#order_date:hover{
+	background-color: white;
+}
+#order_phone{/*手机号*/
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+#order_phone:hover{
+	background-color: white;
+}
+#order_addr{/*收货地址*/
+	width: 230px;
+	height: 40px;
+	line-height:40px;
+	float: left;
+}
+#order_addr:hover{
+	background-color: white;
+}
+#order_total{/*总计*/
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+#order_total:hover{
+	background-color: white;
+}
+#order_state{/*订单状态*/
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+#order_state:hover {
+	background-color: white;
+}
+
+		/*包裹订单项的div*/
+.unpaidOrder_divTop{
+	width: 864px;
+	height: 588px;
+}
+			/*一个订单项*/
+.unpaidOrder_div_orderItem{
+	width: 850px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 4px;
+	font-size: 14px;
+	color: #666666;
+	border: 1px solid #E5D790;
+	/*文本自动换行*/
+	word-break: break-all;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+.unpaidOrder_div_orderItem:hover{
+	background-color: #EEEEEE;
+}
+.orderItem_product{/*订单号*/
+	width: 200px;
+	height: 40px;
+	line-height: 20px;
+	float: left;
+}
+
+.orderItem_date{/*日期*/
+	width: 90px;
+	height: 40px;
+	line-height: 20px;
+	background-color: #EEEEEE;
+	float: left;
+}
+
+.orderItem_phone{/*手机号*/
+	width: 120px;
+	height:40px;
+	line-height:40px;
+	float: left;
+}
+
+.orderItem_addr{/*收货地址*/
+	width: 230px;
+	height: 40px;
+	line-height: 20px;
+	float: left;
+	background-color: #EEEEEE;
+	overflow: hidden;
+}
+
+.orderItem_total{/*总计*/
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+
+.orderItem_state{/*订单状态*/
+	width: 80px;
+	height: 40px;
+	background-color: #EEEEEE;
+	line-height: 40px;
+	float: left;
+}
+
+/*----------------用于分页 的div块-----------------*/
+.fenyeDiv{
+	width:860px;
+	height: 60px;
+	position: relative;
+	cursor: pointer;
+}
+.currentPage{
+	width: 200px;
+	height: 24px;
+	margin: 0 auto;
+	line-height: 24px;
+	text-align: center;
+	font-size: 14px;
+	color: #888888;
+}
+.baoliu{
+	height: 35px;
+	width: 180px;
+	float: left;
+}
+.firstPage{
+	width: 100px;
+	height: 35;
+	line-height: 35px;
+	text-align: center;
+	font-size: 16px;
+	color: #888888;
+	border: 1px solid #EEEEEE;
+	border-radius:6px;
+	float: left;
+}
+.firstPage:hover{
+	border-color: #F10215;
+	background-color: white;
+}
+.previousPage{
+	width: 100px;
+	height: 35;
+	line-height: 35px;
+	text-align: center;
+	font-size: 16px;
+	color: #888888;
+	border: 1px solid #EEEEEE;
+	border-radius:6px;
+	float: left;
+}
+.previousPage:hover{
+	border-color: #F10215;
+	background-color: white;
+}
+.fixPage{
+	width: 100px;
+	height: 35;
+	line-height: 35px;
+	text-align: center;
+	font-size: 16px;
+	color: #888888;
+	border: 1px solid #EEEEEE;
+	border-radius:6px;
+	float: left;
+}
+.fixPageInput{
+	height: 24px;
+	width: 36px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.nextPage{
+	width: 100px;
+	height: 35;
+	line-height: 35px;
+	text-align: center;
+	font-size: 16px;
+	color: #888888;
+	border: 1px solid #EEEEEE;
+	border-radius:6px;
+	float: left;
+}
+.nextPage:hover{
+	border-color: #F10215;
+	background-color: white;
+}
+.lastPage{
+	width: 100px;
+	height: 35;
+	line-height: 35px;
+	text-align: center;
+	font-size: 16px;
+	color: #888888;
+	border: 1px solid #EEEEEE;
+	border-radius:6px;
+	float: left;
+}
+.lastPage:hover{
+	border-color:#F10215;
+	background-color: white;
+	
+}

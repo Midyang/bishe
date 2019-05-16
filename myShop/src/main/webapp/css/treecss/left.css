@@ -1,0 +1,19 @@
+body {
+	background-color: #FFFEEF;
+	margin: 18px;
+	text-align:left;
+}
+td {
+	font-size:16px;
+	color:#303030;
+	line-height:20px;
+}
+a:link,a:visited {
+	
+	color:#012F68;
+	text-decoration: none;
+}
+a:hover {
+	color: #999999;
+	text-decoration:none;
+}

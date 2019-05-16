@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/*网站尾部*/
+		#foots{
+				width: 1200px;
+				height: 100px;
+				margin: 0 auto;
+				background-color: white;
+				margin-top: 10px;
+				background-color: #FFFFFF;
+		}
+		.foot_main{
+			width: 1024px;
+			height:40px;
+			margin: 0 auto;
+			color: #999999;
+			text-align: center;
+		}
+		#foots_list ul{
+			padding-top: 10px;
+			padding-left: 310px;
+		}
+		#foots_list ul li{
+		
+			list-style-type: none;
+			float: left;
+			margin-left:20px ;
+			font-size:14px ;
+		}
+		#foots_list ul li:hover{
+			color: red;
+		}

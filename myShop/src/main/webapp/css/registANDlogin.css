@@ -1,0 +1,162 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	background-color: #FFFFFF;
+}
+#main_div{
+	width: 96%;
+	height: 1000px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+}
+#heads{/* 头部div */
+	height: 110px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+#heads_content{
+	height: 80px;
+	width: 1024px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+}
+#heads_content_logo{/* 头部div logo 部分*/
+	height:110px;
+	width: 256px;
+	float:left;
+}
+#heads_content_logo_photo{
+	height:100px;
+	width: 160px;
+	background-color: chartreuse;
+	background-image: url(../img/LOGO160_100.png);
+	float: left;
+}
+#heads_content_logo_title{
+	height:34px;
+	width: 96px;
+	margin-top: 46px;
+	background-color: #FFFFFF;
+	float: right;
+	font-size: 24px;
+}
+#heads_content_login{/* 头部div login 部分*/
+	height:20px;
+	width: 156px;
+	margin-top: 60px;
+	background-color: #FFFFFF;
+	float:right;
+}
+#heads_content_login_1{
+	color: #999999;
+}
+#heads_content_login_2{
+	color: red;
+	text-decoration: none;
+}
+#heads_content_login_2:hover{
+	color: #F10215;
+	text-decoration: underline;
+}
+/*------------------------------------------------------------*/
+#content{/* 中间内容div */
+	height: 700px;
+	width: 100%;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #999999;
+}
+#content_hr{
+	width: 90%;
+	border: 1px solid #666666;
+	box-shadow:  0px 2px 12px 0px #A9A9A9;    /*下边阴影  黄色*/;
+}
+#content_main{/* 中间主体内容div 注册页面 */
+	height: 560px;
+	width: 1024px;
+	background-color: #FFFFFF;
+	margin:0 auto;
+	padding-top: 40px;
+}
+#content_main2{/* 中间主体内容div 登录页面*/
+	height: 300px;
+	width: 500px;
+	margin-top:120px;
+	margin-left: 50%;
+	padding-top: 40px;
+	border: 1px solid #999999;
+	border-radius: 10px;
+	box-shadow: 3px 6px 12px 2px #A9A9A9;
+}
+.content_main_allDiv{
+	height: 40px;
+	width: 320px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	
+}
+.content_main_allDiv2{/*错误提示信息div*/
+	height: 24px;
+	width: 200px;
+	margin: 0 auto;
+	padding-left: 120px;
+	font-size:12px;
+	line-height:24px;
+	color: red;
+}
+.content_main_1_title{/*输入框名称div*/
+	width:100px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	color: #666666;
+	text-align: right;
+}
+.content_main_1_input{/*输入框div*/
+	width:200px;
+	height: 40px;
+	float: right;
+	line-height: 40px;
+}
+#content_main_1_input_yzm{
+	width:200px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+}
+.content_main_1_inputs{/*输入框*/
+	height: 32px;
+	width: 198px;
+}
+.content_main_1_buttonDiv{/*按钮div*/
+	width: 100px;
+	height: 40px;
+	border: 1px solid beige;
+	float: right;
+}
+.content_main_1_button{
+	width: 80px;
+	height: 40px;
+	float: right;
+	color: #666666;
+}
+/* 验证码部分 */
+#content_main_1_input_yzm{
+	width:70px;
+	height: 40px;
+	margin-left: 20px;
+	float: left;
+	line-height: 40px;
+}
+#content_main_1_inputs_yzmBox{
+	height: 32px;
+	width: 68px;
+}
+#yzm_box{
+	width: 120px;
+	height: 32px;
+	padding-top:8px;
+	float: right;
+	line-height: 40px;
+}
