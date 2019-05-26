@@ -105,7 +105,6 @@ function formSubmit(){
 			productID += ","+checkedBoxArray[i].id;
 		}
 	}
-	alert(productID);
 	if( productID.length>0 ){
 		document.getElementById("productIdVArray").value=productID.substring(1,productID.length);
 		document.getElementById("formSubmitBeforeForm").submit();

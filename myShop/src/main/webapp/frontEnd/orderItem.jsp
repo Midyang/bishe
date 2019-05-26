@@ -97,10 +97,10 @@
 				<div id="order_total">
 					<c:if test="${orderInfo.state !=null}">
 						<c:if test="${orderInfo.state == '1'}">
-							<div id="order_total_num" class="orderStateChangeDiv" onclick="changeOrdSta('${orderInfo.id }')">确认付款</div>
+							<div id="order_total_num2" class="orderStateChangeDiv" onclick="changeOrdSta('${orderInfo.id }')">确认付款</div>
 						</c:if>
 						<c:if test="${ orderInfo.state == '3'}">
-							<div id="order_total_num" class="orderStateChangeDiv" onclick="changeOrdSta('${orderInfo.id }')">确认收货</div>
+							<div id="order_total_num2" class="orderStateChangeDiv" onclick="changeOrdSta('${orderInfo.id }')">确认收货</div>
 						</c:if>
 					</c:if>
 				</div>
