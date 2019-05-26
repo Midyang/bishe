@@ -231,7 +231,12 @@ body{
 	width: 400px;
 	height: 30px;
 	line-height: 30px;
-	float: left;
+	float: right;
+	border: 1px solid #999999 ;
+	border-radius: 6px;
+}
+#order_total_num:hover{
+	background-color:  #FF4400;
 }
 #order_total_num span{
 	color: #FF4400;
@@ -306,3 +311,11 @@ body{
 	color:red;
 	font-size:14px;
 }
+.orderStateChangeDiv{
+	width: 200px;
+	height:30px;
+}
+#totalPrice{
+	color:red;
+}
+

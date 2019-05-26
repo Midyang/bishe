@@ -11,6 +11,8 @@
 		<link rel="stylesheet" href="css/web_foot.css" type="text/css" />
 		<link rel="stylesheet" href="css/web_headNavigation.css" type="text/css" />
 		<link rel="stylesheet" href="css/web_searchBox.css" type="text/css" />
+		<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+		<script type="text/javascript" src="js/orderList.js"></script>
 		<title>订单项页</title>
 	</head>
 	<body>
@@ -61,7 +63,7 @@
                 	描述：商品总计部分
                 -->
                  <!--
-                	作者：offline
+                	作者：midy
                 	时间：2019-03-05
                 	描述：订单信息部分
                 -->
@@ -87,10 +89,20 @@
                 		<div class="nameBlock">地址 :</div>
                 		<div class="valueBlock">${orderInfo.addr}</div>
                 	</div>
+                	<div class="orderInfo_orderNO_div">
+                		<div class="nameBlock">合计:</div>
+                		<div class="valueBlock"><span id="totalPrice">￥${orderInfo.total }</span></div>
+                	</div>
                 </div>
 				<div id="order_total">
-					<div id="order_total_num"><span id="selectProductNum"></span></div>
-					<div id="order_total_money">合计：<span id="totalPrice">￥${orderInfo.total }</span></div>
+					<c:if test="${orderInfo.state !=null}">
+						<c:if test="${orderInfo.state == '1'}">
+							<div id="order_total_num" class="orderStateChangeDiv" onclick="changeOrdSta('${orderInfo.id }')">确认付款</div>
+						</c:if>
+						<c:if test="${ orderInfo.state == '3'}">
+							<div id="order_total_num" class="orderStateChangeDiv" onclick="changeOrdSta('${orderInfo.id }')">确认收货</div>
+						</c:if>
+					</c:if>
 				</div>
 			</div>
 			

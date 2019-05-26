@@ -923,8 +923,9 @@ public class UserShopController {
 	@ResponseBody
 	public ResState changeOrderState(String orderId){
 		ResState res = new ResState("0");
-		if (orderId == null || orderId.trim().length()>30 ) return res;
+		if (orderId == null || orderId.trim().length()<30 ) return res;
 		Orders orderInfo = userShopService.selectOrderInfo(orderId);
+		System.out.println(orderInfo);
 		if(orderInfo != null){
 			try{
 				switch (orderInfo.getState()) {

@@ -55,7 +55,7 @@
 											<div class="orderItem_phone">${order.phone }</div><!--描述：手机号-->
 											<div class="orderItem_addr">${order.addr }</div><!--描述：收货地址-->
 											<div class="orderItem_total">￥${order.total }</div><!--描述：收货地址-->
-											<div class="orderItem_state"><div id="${order.id }" class="orderStateChangeDiv" onclick="changeOrdSta('${order.id }')">${order.state_name }</div></div><!--描述：收货地址-->
+											<div class="orderItem_state">${order.state_name }</div><!--描述：收货地址-->
 										</div>
 	                            	</c:forEach>
 	                            </c:if>

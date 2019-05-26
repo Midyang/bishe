@@ -39,21 +39,22 @@ function orderItemInfo(orderID){
  */
 function changeOrdSta(orderID){
 	if(orderID==null || orderID=="" || orderID=="undefined" ) return;
-	$.post(
-			"userShop/changeOrderState",
-			{"productId":orderID},
-			function(data){
-				if(data != null){
-					if(data.code == 2){
-						document.getElementById("orderID").innerText="已付款";
-					}else if(data.code == 4){
-						document.getElementById("orderID").innerText="已收货";
+		$.post(
+				"userShop/changeOrderState",
+				{"orderId":orderID},
+				function(data){
+					if(data != null){
+						if(data.code == 2){
+							document.getElementById("order_total_num").innerText="已付款";
+							document.getElementById("order_total_num").onclick=function(){};
+						}else if(data.code == 4){
+							document.getElementById("order_total_num").innerText="已收货";
+							document.getElementById("order_total_num").onclick=function(){};
+						}
 					}
-				}
-			},
-			"json"
-	);
-	
+				},
+				"json"
+		);
 }
 
 
