@@ -20,6 +20,14 @@ function refreshPage(flag,value,localtion){
 	document.getElementById("refreshPageForm").submit();
 }
 /**
+ * 分页请求_指定跳转
+ **/
+function refreshPage2(flag,obj,localtion){
+	document.getElementById(flag).value=obj.value;
+	document.getElementById("changeLocaltion").value=localtion;
+	document.getElementById("refreshPageForm").submit();
+}
+/**
  * 加载事件触发，回到上次相应页面 
  **/
 function changeLocaltion(localtion){

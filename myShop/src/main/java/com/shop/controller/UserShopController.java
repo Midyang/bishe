@@ -161,7 +161,7 @@ public class UserShopController {
 		if( ValidateValue.isNumber(minPrice) ) {
 			parameter.put("minPrice",Double.parseDouble(minPrice));
 		}
-																				//最高价
+																			//最高价
 		if( ValidateValue.isNumber(maxPrice) ) {
 			parameter.put("maxPrice",Double.parseDouble(maxPrice));
 		}																	//是否热门
@@ -172,13 +172,13 @@ public class UserShopController {
 		}																	//描述
 		if( !ValidateValue.isEmpty(description) ) {
 			parameter.put("description",description);
-		}															//价格排序
+		}																	//价格排序
 		if(ValidateValue.isInteger(priceSort)) {
 			parameter.put("priceSort",priceSort);
 		}																	//二级分类商品
 		if(ValidateValue.isInteger(scid)) {
 			parameter.put("scid",scid);
-		}else {																	//如果为空，或空串，或不是数值，给定默认值0
+		}else {																//如果为空，或空串，或不是数值，给定默认值0
 			parameter.put("scid",0);
 		}
 		//分页设置

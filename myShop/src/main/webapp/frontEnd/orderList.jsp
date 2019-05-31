@@ -72,7 +72,7 @@
 								<div class="baoliu"></div>
 								<div class="firstPage" onclick="refreshPage('currentPageOne',1,'unpaidOrder_div')">首页</div>
 								<div class="previousPage" onclick="refreshPage('currentPageOne',${pageOne.prePage},'unpaidOrder_div')">上一页</div>
-								<div class="fixPage">跳到<input type="number" class="fixPageInput" min="1"/>页 </div>
+								<div class="fixPage">跳到<input type="number" class="fixPageInput" min="1" onblur="refreshPage2('currentPageOne',this,'unpaidOrder_div')"/>页 </div>
 								<div class="nextPage" onclick="refreshPage('currentPageOne',${pageOne.nextPage},'unpaidOrder_div')">下一页</div>
 								<div class="lastPage" onclick="refreshPage('currentPageOne',${pageOne.countPage},'unpaidOrder_div')">尾页</div>
 							</div>
@@ -99,7 +99,7 @@
 								<div class="baoliu"></div>
 								<div class="firstPage" onclick="refreshPage('currentPageTwo',1,'receiveOfgoodsOrder_div')">首页</div>
 								<div class="previousPage" onclick="refreshPage('currentPageTwo',${pageTwo.prePage},'receiveOfgoodsOrder_div')">上一页</div>
-								<div class="fixPage">跳到<input type="number" class="fixPageInput" min="1"/>页 </div>
+								<div class="fixPage">跳到<input type="number" class="fixPageInput" min="1" onblur="refreshPage2('currentPageTwo',this,'receiveOfgoodsOrder_div')" />页 </div>
 								<div class="nextPage" onclick="refreshPage('currentPageTwo',${pageTwo.nextPage},'receiveOfgoodsOrder_div')">下一页</div>
 								<div class="lastPage" onclick="refreshPage('currentPageTwo',${pageTwo.countPage},'receiveOfgoodsOrder_div')">尾页</div>
 							</div>
@@ -126,7 +126,7 @@
 								<div class="baoliu"></div>
 								<div class="firstPage" onclick="refreshPage('currentPageThr',1,'finishOrder_div')">首页</div>
 								<div class="previousPage" onclick="refreshPage('currentPageThr',${pageThr.prePage},'finishOrder_div')">上一页</div>
-								<div class="fixPage">跳到<input type="number" class="fixPageInput" min="1"/>页 </div>
+								<div class="fixPage">跳到<input type="number" class="fixPageInput" min="1" onblur="refreshPage2('currentPageThr',this,'finishOrder_div')" />页 </div>
 								<div class="nextPage" onclick="refreshPage('currentPageThr',${pageThr.nextPage},'finishOrder_div')">下一页</div>
 								<div class="lastPage" onclick="refreshPage('currentPageThr',${pageThr.countPage},'finishOrder_div')">尾页</div>
 							</div>
