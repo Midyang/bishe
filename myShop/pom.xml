@@ -28,7 +28,7 @@
 		<jedis.version>2.7.2</jedis.version>
 		<solrj.version>4.10.3</solrj.version>
 		<freemarker.version>2.3.23</freemarker.version>
-		<quartz.version>2.2.2</quartz.version>
+		<quartz.version>2.3.2</quartz.version>
 		<log4j.version>1.2.17</log4j.version>
 		<commons-fileupload.version>1.3.1</commons-fileupload.version>
 		<fastjson.version>1.2.47</fastjson.version>
